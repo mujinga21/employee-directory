@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import SearchForm from "./SearchForm";
 import ResultList from "./ResultList";
 import API from "../utils/API";
-import NavTabs from "./NavTabs";
-import Contact from "./pages/Contact";
+
 
 class SearchResultContainer extends Component {
   state = {
