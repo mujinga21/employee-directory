@@ -1,6 +1,6 @@
 import React from "react";
 
-const ResultList = () => (
+const Employees = () => (
   <div>
     <h1>About Page</h1>
     <p>
@@ -13,4 +13,4 @@ const ResultList = () => (
   </div>
 );
 
-export default About;
+export default Employees;

@@ -1,27 +1,38 @@
-import logo from "./logo.svg";
-import "./App.css";
-import ResultList from "./pages/ResultList";
-import SearchForm from "./pages/SearchForm";
-import SearchResultContainer from "./pages/SearchResultContainer";
+import React from "react";
+// / import logo from "./logo.svg";
+// import "./App.css";
 
-import Wrapper from "./components/Wrapper";
+import PortfolioContainer from "./components/PortfolioContainer";
 
-function App() {
-  return (
-    <Router>
-      <div>
+const App = () => <PortfolioContainer />;
+
+export default App;
+
+
+// import logo from "./logo.svg";
+// import "./App.css";
+// import ResultList from "./pages/ResultList";
+// import SearchForm from "./pages/SearchForm";
+// import SearchResultContainer from "./pages/Result";
+
+// import Wrapper from "./components/Wrapper";
+
+// function App() {
+//   return (
+//     <Router>
+//       <div>
       
-        <Wrapper>
+//         <Wrapper>
         
-          <Route exact path="/resultList" component={ResultList} />
-          <Route exact path="/searchForm" component={SearchForm} />
-          <Route exact path="/searchResultContainer" component={SearchResultContainer} />
-        </Wrapper>
+//           <Route exact path="/resultList" component={ResultList} />
+//           <Route exact path="/searchForm" component={SearchForm} />
+//           <Route exact path="/searchResultContainer" component={SearchResultContainer} />
+//         </Wrapper>
         
-      </div>
-    </Router>
-  );
-}
+//       </div>
+//     </Router>
+//   );
+// }
 
 
 
@@ -40,5 +51,4 @@ function App() {
 //   );
 // }
 
-export default App;
 

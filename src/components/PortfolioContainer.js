@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import NavTabs from "./NavTabs";
+// import logo from "./logo.svg";
 import Home from "./pages/Home";
-import About from "./pages/About";
-import Blog from "./pages/Blog";
+import Employees from "./pages/Employees";
+import Result from "./pages/Result";
 import Contact from "./pages/Contact";
 
 class Portfolio extends Component {

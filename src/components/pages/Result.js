@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const SearchResultContainer = () => (
+const Result = () => (
   <div>
     <h1>Result Page</h1>
     <p>
@@ -19,4 +19,4 @@ const SearchResultContainer = () => (
   </div>
 );
 
-export default Blog;
+export default Result;
