@@ -1,7 +1,7 @@
 import React from "react";
-import logo from './logo.svg';
+// import ResultList from './components/ResultList';
+import SearchResultContainer from './components/SearchResultContainer';
 
-import SearchResultContainer from "./components/SearchResultContainer";
 
 function App() {
   return (
@@ -12,5 +12,7 @@ function App() {
   );
 }
 export default App;
+
+
 
 

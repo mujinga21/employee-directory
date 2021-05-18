@@ -30,7 +30,7 @@ class SearchResultContainer extends Component {
   };
 
   handleInputChange = (event) => {
-    const name = event.target.name;
+    // const name = event.target.name;
     const value = event.target.value;
     this.setState({
       searchTerm: value,
